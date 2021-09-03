@@ -5,6 +5,10 @@ import { expect } from 'chai'
 describe('Test: /api/hex-convert', () => {
   const testRequests = [
     {
+      input: 0,
+      output: 0
+    },
+    {
       input: 10,
       output: 'A'
     },
