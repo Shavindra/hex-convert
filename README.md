@@ -1,12 +1,20 @@
 # API
 
 ## Run the API
+#### Local environment
+
 ```sh
 yarn install
 yarn start
 ```
 
 API is now running at `http://localhost:3000`
+
+#### Codesandbox
+
+- Start codesandbox: https://codesandbox.io/s/hex-convert-70wmm
+- API *should* be running at https://70wmm.sse.codesandbox.io/
+
 
 ## Endpoints
 
@@ -16,7 +24,7 @@ API is now running at `http://localhost:3000`
 GET /api/hex-convert
 ```
 
-#### Body parameters:
+ #### Body parameters:
 - `input`: number to convert.
 
 Example:
@@ -34,3 +42,7 @@ curl --location --request POST 'http://localhost:3000/api/hex-convert' \
 ```sh
 yarn test
 ```
+
+## Codesandbox
+
+
