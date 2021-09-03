@@ -42,7 +42,3 @@ curl --location --request POST 'http://localhost:3000/api/hex-convert' \
 ```sh
 yarn test
 ```
-
-## Codesandbox
-
-
